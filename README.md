@@ -28,11 +28,19 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## โน๊ตส่วนตัว
 console.firebase.google.com
+
 > firebase init
+
 == configuration, select Database, Hosting
+
 == database.rules.json (override: y)
+
 == public directory: dist/ngfire
+
 == configure as SPA (y)
+
 == dist/ngfire/index.html overwrite (N)
+
 > ng build --prod
+
 > firebase deploy
